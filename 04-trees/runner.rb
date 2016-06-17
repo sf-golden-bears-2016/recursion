@@ -8,11 +8,10 @@ p tree
 tree.in_order_traversal
 puts
 tree.pre_order_traversal
-puts
-tree.post_order_traversal
+puts tree.post_order_traversal
 
 
 
-tree = BinarySearchTree.new({:items, 3})
+# tree = BinarySearchTree.new({:items, 3})
 binding.pry
 p tree

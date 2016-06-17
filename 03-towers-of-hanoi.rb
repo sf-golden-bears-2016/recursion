@@ -41,5 +41,6 @@ describe "towers_of_hanoi" do
   it "should move the whole stack if we give level equal to the length" do
     expect(towers_of_hanoi(towers, towers[0].length, 0, 1, 2)).to eq 127
     expect(towers).to eq [[], [7, 6, 5, 4, 3, 2, 1], []]
+    expect((0..1000000).to_a).to include(blah)
   end
 end
